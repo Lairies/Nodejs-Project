@@ -1,0 +1,7 @@
+const ph = {
+    nom:(req, res)=>{
+        console.log('Hello World')
+        res.render('index');
+    }
+};
+module.exports = ph;
